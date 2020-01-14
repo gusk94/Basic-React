@@ -1,0 +1,25 @@
+.form {
+    display: flex;
+}
+
+.create-btn {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin-left: 1rem;
+    background-color: cadetblue;
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.form input {
+    flex: 1;
+    font-size: 1.25rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid cadetblue;
+}
+
+.create-btn:hover {
+    background-color: #3bc9db;
+}
