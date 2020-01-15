@@ -30,3 +30,37 @@ yarn start
 - `npm install react-router-dom` 
   - route 설치
 - Dog 와 Cat 누르면 `/<url>` 로 들어가 이미지 표시
+
+
+
+## 3. TypeScript
+
+```bash
+# package.json 생성
+yarn init -y # npm init -y
+
+# typescript 설치
+yarn global add typescript #npm install -g typescript
+
+# typescript 설정파일 (tsconfig.json)
+tsc --init
+
+# 컴파일
+#tsconfig.json
+"outDir": "./dist" # dist 파일 안에 컴파일 파일이 생김
+tsc
+
+# 실행
+node ./(경로)/(filename)
+
+# 프로젝트 내에 `typescript` 패키지
+yarn add typescript
+
+# package.json
+"scripts": {
+"build": "tsc"
+}
+
+yarn build # npm run build
+```
+
