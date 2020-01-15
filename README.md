@@ -64,3 +64,12 @@ yarn add typescript
 yarn build # npm run build
 ```
 
+
+
+## 4. TypeScript + React
+
+```bash
+# typescript 가 있는 react project
+np create-react-app <project> --typescript
+```
+
