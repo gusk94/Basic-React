@@ -1,6 +1,9 @@
 ```bash
 yarn global add create-react-app
 
+# typescript 설치
+yarn add typescript
+
 # 프로젝트 생성
 create-react-app todo-list
 
