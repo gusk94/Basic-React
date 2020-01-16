@@ -73,3 +73,10 @@ yarn build # npm run build
 np create-react-app <project> --typescript
 ```
 
+
+
+## 5. Redux -> Counter
+
+![counter](image/counter.PNG)
+
+- hooks 사용 -> class 로 바꾸기!
