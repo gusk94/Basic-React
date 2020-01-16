@@ -79,4 +79,14 @@ np create-react-app <project> --typescript
 
 ![counter](image/counter.PNG)
 
-- hooks 사용 -> class 로 바꾸기!
+- `hooks` 사용 -> `class` 로 바꾸기(예정)
+
+
+
+## 6. Context API
+
+![todo-context](image/todo-context.PNG)
+
+- Context API 활용
+- `hooks` -> `class` 바꾸기(예정)
+- `context API` : Component 끼리 부모를 거치지 않고, 바로 정보를 주고받을 수 있도록 해줌
